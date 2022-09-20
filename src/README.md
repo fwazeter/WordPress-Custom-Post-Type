@@ -1,4 +1,12 @@
-# The WazFrame Code by WazFactor
+# Custom Post Types by WazFactor
+
+This plugin is boilerplate for the generation of using Custom Post Types in WordPress with
+easy to re-use duplication via designing it as a PHP class.
+
+Rather than using complex meta fields, the Custom Post Type uses block templates (created via PHP) to dictate
+the templates and fields for users to input in a custom post type.
+
+## Containerized
 
 The files in the ```src``` directory power the majority of WazFrame, using the ```WazFactor\CPT``` namespace and
 [PSR-4](https://www.php-fig.org/psr/psr-4/) file naming conventions.
